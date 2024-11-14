@@ -49,7 +49,7 @@ namespace WindowsApplicationGame
                     case enPlayer.Player1:
                         button.Image = Resources._91c8257e_ed15_4dc4_ab8c_b6c1e296b6a4;
                         enPlayerTurn = enPlayer.Player2;
-                        lbTurn.Text = "Player 2";
+                        lbPlayerTurn.Text = "Player 2";
                         button.Tag = "x";
                         GameStatus.PlayCount++;
                         CheckWinner();
@@ -57,7 +57,7 @@ namespace WindowsApplicationGame
                      case enPlayer.Player2:
                         button.Image = Resources.fef21613_24d9_43ba_b1f7_cce5d19af77e;
                         enPlayerTurn = enPlayer.Player1;
-                        lbTurn.Text = "Player 1";
+                        lbPlayerTurn.Text = "Player 1";
                         button.Tag = "y";
                         GameStatus.PlayCount++;
                         CheckWinner();
